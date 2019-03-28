@@ -1,2 +1,2 @@
 # setup
-Scripts used on new machines for setting up/configuring various services.
+Bash scripts used on new machines for setting up/configuring various services.
