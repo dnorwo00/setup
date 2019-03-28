@@ -2,11 +2,11 @@
 
 echo  ""
 echo "--------------------------------------------------------------------------------"
-echo "Installing docker..."
+echo "Installing docker and docker-compose"
 echo "--------------------------------------------------------------------------------"
 echo ""
 sudo apt update -y &&
-sudo apt install docker.io &&
+sudo apt install docker.io docker-compose -y &&
 echo ""
 
 echo ""
