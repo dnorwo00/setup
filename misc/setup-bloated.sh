@@ -5,3 +5,6 @@ echo -e "\n---\n\nThe following applications can be upgraded. Commencing in 5 se
 apt list --upgradable
 sleep 5
 sudo apt upgrade -y
+echo -e "\n---\n\nInstalling snap packages...\n\n---\n\n"
+sudo snap install code --classic
+sudo snap install brave
