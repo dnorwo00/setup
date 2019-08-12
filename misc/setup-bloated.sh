@@ -7,4 +7,4 @@ sleep 5
 sudo apt upgrade -y
 echo -e "\n---\n\nInstalling snap packages...\n\n---\n\n"
 sudo snap install code --classic
-sudo snap install brave
+# sudo snap install brave
